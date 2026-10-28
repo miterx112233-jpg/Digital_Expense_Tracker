@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-surface: #fafafa;
+}
+
+body {
+  background-color: var(--bg-surface);
+  color: #111827;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+}
+

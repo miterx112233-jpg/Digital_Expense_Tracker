@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  alert-worker:
+    build: ./worker
+    container_name: digital-expense-alert-worker
+    restart: unless-stopped
+    env_file:
+      - .env
+

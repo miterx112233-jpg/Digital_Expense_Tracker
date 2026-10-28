@@ -15,8 +15,17 @@
 - **UI/UX Design:** Figma
 
 ## 🚀 การติดตั้งและรันโปรเจกต์ (Getting Started)
-*(จะเพิ่มคำสั่ง `npm install` และ `npm run dev` หลังจากตั้งค่าโปรเจกต์เสร็จสิ้น)*
+```bash
+# 1. ติดตั้ง Dependencies
+npm install
+
+# 2. รันเซิร์ฟเวอร์สำหรับพัฒนา (เปิดที่ http://localhost:3000)
+npm run dev
+```
 
 ## 📂 โครงสร้างเอกสารอื่นๆ
-- ดูการออกแบบบริบทและระบบได้ที่ [CONTEXT_DESIGN.md](CONTEXT_DESIGN.md)
-- ดูโครงสร้างฐานข้อมูลได้ที่ [DATABASE_SCHEMA.md](DATABASE_SCHEMA.md)
+- ดูรายการงานที่ต้องทำทั้งหมด (Product Backlog) ได้ที่ [backlog.md](backlog.md)
+- ดูภาพการออกแบบ UI ทั้ง 4 หน้าได้ที่โฟลเดอร์ [UI/](UI/)
+- ดูการออกแบบบริบทและระบบได้ที่ [Context.md](Context.md)
+- ดูโครงสร้างฐานข้อมูลได้ที่ [database_schema.md](database_schema.md) และไฟล์ SQL [supabase/schema.sql](supabase/schema.sql)
+- ดูโค้ด Background Worker สำหรับแจ้งเตือนได้ที่ [worker/alert_worker.mjs](worker/alert_worker.mjs)
